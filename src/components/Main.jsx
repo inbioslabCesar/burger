@@ -41,7 +41,7 @@ const Main = () => {
             </div>
             <a
               href="#"
-              className="bg-secondaryColor text-black font-medium inline-block text-sm py-3 px-8 capitalize text-center cursor-pointer rounded-md ease-linear dutation-200">
+              className="bg-secondaryColor text-black font-medium inline-block text-sm py-3 px-8 capitalize text-center cursor-pointer rounded-md ease-linear dutation-200 hover:bg-red-400 transition">
               Learn More
             </a>
           </div>
@@ -105,7 +105,7 @@ const Main = () => {
             <div>
               <div className="mb-2">
                 <h4 className="text-xl font-bold uppercase md:text-4xl lg:text-6xl">
-                  Snack
+                Beverage
                 </h4>
                 <p className="text-xs">Lorem ipsum dolor sit.</p>
               </div>
@@ -121,7 +121,7 @@ const Main = () => {
         <div className="container flex flex-col gap-5 lg:gap-10 lg:flex-row">
           {/* card 1 */}
           <div className=" bg-primaryColorLight flex flex-col p-5 rounded-lg md:flex-row md:items-center lg:flex-row-reverse lg:flex-1">
-            <img src={promo1} alt="promo image" className="w-40 mx-auto hover:animate-movingY  md:mx-5" />
+            <img src={promo1} alt="promo image" className="w-40 mx-auto animate-movingY  md:mx-5" />
             <div className="space-y-2 pt-5">
               <p className="text-xs text-secondaryColor">Payday promo</p>
               <h3 className="text-xl font-oswald uppercase lg:text-2xl">
@@ -137,7 +137,7 @@ const Main = () => {
           </div>
           {/* card 2 */}
           <div className=" bg-primaryColorLight flex flex-col p-5 rounded-lg md:flex-row md:items-center lg:flex-row-reverse lg:flex-1">
-            <img src={promo2} alt="promo image" className="w-40 mx-auto hover:animate-movingY  md:mx-5" />
+            <img src={promo2} alt="promo image" className="w-40 mx-auto animate-movingY  md:mx-5" />
             <div className="space-y-2 pt-5">
               <p className="text-xs text-secondaryColor">Payday promo</p>
               <h3 className="text-xl font-oswald uppercase lg:text-2xl">

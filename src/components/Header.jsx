@@ -64,9 +64,9 @@ const Header = () => {
             <i class="ri-moon-line cursor-pointer text-xl"></i>
             <div className="md:hidden" onClick={handleClik}>
               {nav ? (
-                <i class="ri-close-line cursor-pointer text-2xl"></i>
+                <i class="ri-close-line cursor-pointer text-2xl hover:text-3xl"></i>
               ) : (
-                <i class="ri-menu-2-line cursor-pointer text-xl"></i>
+                <i class="ri-menu-2-line cursor-pointer text-xl hover:text-3xl"></i>
               )}
             </div>
           </div>
