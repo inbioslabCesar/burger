@@ -14,35 +14,33 @@ const Main = () => {
           </div>
           <div className="text-center md:basis-1/2 md:text-start lg:sasis-3/5">
             <h1 className="text-4xl font-oswald fond-bold uppercase lg:text-6xl">
-              HAPPY TUMMY TASTY BURGERS.
+            HAMBURGUESAS SABROSAS DE UNA BARRIGA FELIZ.
             </h1>
             <div className="w-28 h-[2px] bg-secondaryColor my-5 mx-auto md:mx-0"></div>
             <p className="text-paragraphColor text-xs leading-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-              voluptates eveniet labore, eos iure nemo asperiores iusto aliquam
-              obcaecati quae molestiae tenetur. Facilis, nulla cum!
+            Sabemos que la preparación de la carne de una hamburguesa es una de las partes más importantes. Por ello, Burger te ofrece una técnica de cocción única en la que la mantenemos suspendida sobre el fuego para otorgarle la jugosidad perfecta que nos caracteriza. Combina tu hamburguesa de carne a la parrilla con los mejores ingredientes que hemos elegido para ti: tocino, plátano, tomate, lechuga, huevo, queso y mucho más. ¡No esperes más y empieza a disfrutar de lo mejor del sabor peruano!
             </p>
             <div className="text-base flex items-center justify-center gap-4 py-10 md:justify-start md:gap-20">
               <div className="text-center">
                 <i class="fa-solid fa-utensils text-secondaryColor text-4xl"></i>
                 <br />
-                Delicious
+                Deliciosa
               </div>
               <div className="text-center">
                 <i class="fa-solid fa-droplet text-secondaryColor text-4xl"></i>
                 <br />
-                Fresh
+                Fresca
               </div>
               <div className="text-center">
                 <i class="fa-brands fa-envira text-secondaryColor text-4xl"></i>
                 <br />
-                Organic
+                Organica
               </div>
             </div>
             <a
               href="#"
               className="bg-secondaryColor text-black font-medium inline-block text-sm py-3 px-8 capitalize text-center cursor-pointer rounded-md ease-linear dutation-200 hover:bg-red-400 transition">
-              Learn More
+              Ver más
             </a>
           </div>
         </div>
@@ -62,13 +60,13 @@ const Main = () => {
             </div>
             <div>
               <div className="mb-2">
-                <h4 className="text-xl font-bold uppercase md:text-4xl lg:text-6xl">
-                  Food
+                <h4 className="text-xl font-bold uppercase md:text-4xl lg:text-3xl">
+                  food
                 </h4>
                 <p className="text-xs">Lorem ipsum dolor sit.</p>
               </div>
               <a href="#" className="text-blackColor cursor-pointer">
-                Buy online
+              Comprar en línea
               </a>
             </div>
           </div>
@@ -83,13 +81,13 @@ const Main = () => {
             </div>
             <div>
               <div className="mb-2">
-                <h4 className="text-xl font-bold uppercase md:text-4xl lg:text-6xl">
-                  Snack
+                <h4 className="text-xl font-bold uppercase md:text-4xl lg:text-3xl">
+                  Bocadillos
                 </h4>
                 <p className="text-xs">Lorem ipsum dolor sit.</p>
               </div>
               <a href="#" className="text-secondaryColor cursor-pointer">
-                Buy online
+                Comprar en línea
               </a>
             </div>
           </div>
@@ -104,13 +102,13 @@ const Main = () => {
             </div>
             <div>
               <div className="mb-2">
-                <h4 className="text-xl font-bold uppercase md:text-4xl lg:text-6xl">
-                Beverage
+                <h4 className="text-xl font-bold uppercase md:text-4xl lg:text-3xl">
+                  Bebidas
                 </h4>
                 <p className="text-xs">Lorem ipsum dolor sit.</p>
               </div>
               <a href="#" className="text-secondaryColor cursor-pointer">
-                Buy online
+              Comprar en línea
               </a>
             </div>
           </div>
@@ -123,15 +121,15 @@ const Main = () => {
           <div className=" bg-primaryColorLight flex flex-col p-5 rounded-lg md:flex-row md:items-center lg:flex-row-reverse lg:flex-1">
             <img src={promo1} alt="promo image" className="w-40 mx-auto animate-movingY  md:mx-5" />
             <div className="space-y-2 pt-5">
-              <p className="text-xs text-secondaryColor">Payday promo</p>
+              <p className="text-xs text-secondaryColor">Promocion del día</p>
               <h3 className="text-xl font-oswald uppercase lg:text-2xl">
-                GET A 10% DISCOUNT ON PAYDAY WEEK
+              OBTÉN UN 10% DE DESCUENTO EN LA SEMANA DEL DÍA DE PROMO
               </h3>
               <p className="text-paragraphColor text-xs leading-5">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               </p>
               <a href="#" className="text-xs text-secondaryColor">
-                Buy online
+                Comprar en línea
               </a>
             </div>
           </div>
@@ -139,15 +137,15 @@ const Main = () => {
           <div className=" bg-primaryColorLight flex flex-col p-5 rounded-lg md:flex-row md:items-center lg:flex-row-reverse lg:flex-1">
             <img src={promo2} alt="promo image" className="w-40 mx-auto animate-movingY  md:mx-5" />
             <div className="space-y-2 pt-5">
-              <p className="text-xs text-secondaryColor">Payday promo</p>
+              <p className="text-xs text-secondaryColor">Promocion del día</p>
               <h3 className="text-xl font-oswald uppercase lg:text-2xl">
-                GET A 10% DISCOUNT ON PAYDAY WEEK
+              OBTÉN UN 10% DE DESCUENTO EN LA SEMANA DEL DÍA DE PAGO
               </h3>
               <p className="text-paragraphColor text-xs leading-5">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               </p>
               <a href="#" className="text-xs text-secondaryColor">
-                Buy online
+              Comprar en línea
               </a>
             </div>
           </div>

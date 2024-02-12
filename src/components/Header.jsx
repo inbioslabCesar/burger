@@ -12,19 +12,19 @@ const Header = () => {
       <div className="block absolute top-14 left-0 w-full right-0 bg-primaryColor border-b border-secondaryColor z-50">
         <ul className="flex flex-col text-center">
           <li className="p-4 hover:text-secondaryColor ease-in duration-200">
-            <Link to="#">Home</Link>
+            <Link to="#">Inicio</Link>
           </li>
           <li className="p-4 hover:text-secondaryColor ease-in duration-200">
-            <Link to="#">About Us</Link>
+            <Link to="#">Sobre nosotros</Link>
           </li>
           <li className="p-4 hover:text-secondaryColor ease-in duration-200">
             <Link to="#">Menu</Link>
           </li>
           <li className="p-4 hover:text-secondaryColor ease-in duration-200">
-            <Link to="#">Review</Link>
+            <Link to="#">Revisar</Link>
           </li>
           <li className="p-4 hover:text-secondaryColor ease-in duration-200">
-            <Link to="#">Contact</Link>
+            <Link to="#">Contacto</Link>
           </li>
         </ul>
       </div>
@@ -43,19 +43,19 @@ const Header = () => {
           <div className="flex">
             <ul className="hidden  md:flex">
               <li className="p-4 hover:text-secondaryColor ease-in duration-200">
-                <Link to="#">Home</Link>
+                <Link to="#">Inicio</Link>
               </li>
               <li className="p-4 hover:text-secondaryColor ease-in duration-200">
-                <Link to="#">About Us</Link>
+                <Link to="#">Sobre nosotros</Link>
               </li>
               <li className="p-4 hover:text-secondaryColor ease-in duration-200">
                 <Link to="#">Menu</Link>
               </li>
               <li className="p-4 hover:text-secondaryColor ease-in duration-200">
-                <Link to="#">Review</Link>
+                <Link to="#">Revisar</Link>
               </li>
               <li className="p-4 hover:text-secondaryColor ease-in duration-200">
-                <Link to="#">Contact</Link>
+                <Link to="#">Contacto</Link>
               </li>
             </ul>
           </div>
